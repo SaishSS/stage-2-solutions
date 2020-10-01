@@ -11,6 +11,71 @@ touch /tmp/customer_details.txt
 cp customer_details.txt /opt/assets
 
 ---------------------------------------------------------------------------------------------------------------------------------
+File System 3
+
+mkdir -p /opt/assets/Chennai 
+touch /opt/Chennai/Chennai_customers.txt 
+grep "Chennai" /tmp/customer_details.txt > /opt/assets/Chennai/Chennai_customers.txt 
+
+---------------------------------------------------------------------------------------------------------------------------------
+File System 4
+
+touch /opt/assets/Stacking_Train.txt 
+grep Stacking Train /tmp/toys.txt > /opt/assets/Stacking_Train.txt
+
+touch /opt/assets/First_Builders.txt 
+grep First Builders /tmp/toys.txt > /opt/assets/First_Builders.txt 
+
+touch /opt/assets/Fill_and_Spill_Coin.txt 
+grep Fill and Spill Coin /tmp/toys.txt > /opt/assets/Fill_and_Spill_Coin.txt 
+
+touch /opt/assets/Lego_Ferrai_Racer.txt 
+grep Lego Ferrai Racer /tmp/toys.txt > /opt/assets/Lego_Ferrai_Racer.txt 
+
+touch /opt/assets/Posting_Challange.txt 
+grep Posting Challange /tmp/toys.txt > /opt/assets/Posting_Challange.txt 
+
+touch /opt/assets/Foosball.txt 
+grep Foosball /tmp/toys.txt > /opt/assets/Foosball.txt 
+
+touch /opt/assets/Battery_Bik.txt 
+grep Battery Bik /tmp/toys.txt > /opt/assets/Battery_Bik.txt 
+
+touch /opt/assets/Shape_and_Color_Sorter.txt 
+grep Shape and Color Sorter /tmp/toys.txt > /opt/assets/Shape_and_Color_Sorter.txt 
+
+touch /opt/assets/Musical_Horn.txt 
+grep Musical Horn /tmp/toys.txt > /opt/assets/Musical_Horn.txt 
+
+touch /opt/assets/Segway_Skateboard.txt 
+grep Segway Skateboard /tmp/toys.txt > /opt/assets/Segway_Skateboard.txt 
+
+touch /opt/assets/Brick_Buster.txt 
+grep Brick Buster /tmp/toys.txt > /opt/assets/Brick_Buster.txt 
+
+touch /opt/assets/PlayStix.txt 
+grep PlayStix /tmp/toys.txt > /opt/assets/PlayStix.txt 
+
+touch /opt/assets/Build_Dions.txt 
+grep Build Dions /tmp/toys.txt > /opt/assets/Build_Dions.txt 
+
+touch /opt/assets/Balancing_Blocks.txt 
+grep Balancing Blocks /tmp/toys.txt > /opt/assets/Balancing_Blocks.txt 
+
+touch /opt/assets/SICK_Science.txt 
+grep SICK Science /tmp/toys.txt > /opt/assets/SICK_Science.txt 
+
+touch /opt/assets/Count_Colors_Band.txt 
+grep Count Colors Band /tmp/toys.txt > /opt/assets/Count_Colors_Band.txt 
+
+touch /opt/assets/Race_Car.txt 
+grep Race Car /tmp/toys.txt > /opt/assets/Race_Car 
+
+touch /opt/assets/Rexter_Flying_Helicopter.txt 
+grep Rexter Flying Helicopter /tmp/toys.txt > /opt/assets/Rexter_Flying_Helicopter.txt
+
+
+---------------------------------------------------------------------------------------------------------------------------------
 3.File System 5
 
 mkdir -p /opt/assets/{New_Delhi,Chennai,Bangalore,Mumbai,Hyderabad,Delhi,Vizag,Jaipur,Kolkatta,Chandigarh}
