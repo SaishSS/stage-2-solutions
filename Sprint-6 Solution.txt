@@ -1,0 +1,91 @@
+Sprint 6
+1.File System 1
+
+cp toys.txt /opt/assets
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+2.File System 2
+
+touch /tmp/customer_details.txt
+cp customer_details.txt /opt/assets
+
+---------------------------------------------------------------------------------------------------------------------------------
+3.File System 5
+
+mkdir -p /opt/assets/{New_Delhi,Chennai,Bangalore,Mumbai,Hyderabad,Delhi,Vizag,Jaipur,Kolkatta,Chandigarh}
+touch /opt/assets/New_Delhi/New_Delhi.txt
+grep New Delhi  /tmp/customer_details.txt > /opt/assets/New_Delhi/New_Delhi.txt
+
+touch /opt/assets/Chennai/Chennai.txt
+grep Chennai /tmp/customer_details.txt > /opt/assets/Chennai/Chennai.txt
+
+touch /opt/assets/Bangalore/Bangalore.txt
+grep Bangalore /tmp/customer_details.txt > /opt/assets/Bangalore/Bangalore.txt
+
+touch /opt/assets/Mumbai/Mumbai.txt
+grep Mumbai /tmp/customer_details.txt > /opt/assets/Mumbai/Mumbai.txt
+
+touch /opt/assets/Hyderabad/Hyderabad.txt
+grep Hyderabad /tmp/customer_details.txt > /opt/assets/Hyderabad/Hyderabad.txt
+
+touch /opt/assets/Delhi/Delhi.txt
+grep Delhi /tmp/customer_details.txt > /opt/assets/Delhi/Delhi.txt
+
+touch /opt/assets/Vizag/Vizag.txt
+grep Vizag /tmp/customer_details.txt > /opt/assets/Vizag/Vizag.txt
+
+touch /opt/assets/Jaipur/Jaipur.txt
+grep Jaipur /tmp/customer_details.txt > /opt/assets/Jaipur/Jaipur.txt
+
+touch /opt/assets/Kolkatta/Kolkatta.txt
+grep Kolkatta /tmp/customer_details.txt > /opt/assets/Kolkatta/Kolkatta.txt
+
+touch /opt/assets/Chandigarh/Chandigarh.txt
+grep Chandigarh /tmp/customer_details.txt > /opt/assets/Chandigarh/Chandigarh.txt
+
+-----------------------------------------------------------------------------------------------------------------------
+4. File System 4
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+5. Filters 1
+
+cat /tmp/customer_details.txt | grep "Chennai"
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+6. File System 3
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+7. Filter 2
+
+cut -f 1,2,3,6 /tmp/toys.txt|grep 5000
+
+----------------------------------------------------------------------------------------------------------------------------
+8. Filter 5
+
+
+cut -f 2,5 /tmp/toys.txt | grep 5
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+9. Filter 3
+
+cat /tmp/toys_rental.txt | cut -f 3,5 /tmp/toys_rental.txt | grep Lego > /tmp/details.txt
+cut -f 1 /tmp/details.txt
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+10. Filter 4
+
+cut -f 5,11 /tmp/toys_rental.txt 
+
+
+
